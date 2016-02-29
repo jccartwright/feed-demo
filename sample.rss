@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
+<atom:link href="http://dallas.example.com/rss.xml" rel="self" type="application/rss+xml" />
+
  <title>RSS Title</title>
  <description>This is an example of an RSS feed</description>
  <link>http://www.example.com/main.html</link>
@@ -12,7 +14,7 @@
   <title>Example entry</title>
   <description>Here is some text containing an interesting description.</description>
   <link>http://www.example.com/blog/post/1</link>
-  <guid isPermaLink="true">7bd204c6-1655-4c27-aeee-53f933c5395f</guid>
+  <guid isPermaLink="false">7bd204c6-1655-4c27-aeee-53f933c5395f</guid>
   <pubDate>Sun, 06 Sep 2009 16:20:00 +0000</pubDate>
  </item>
 
